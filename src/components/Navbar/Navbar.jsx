@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="max-w-[1410px] mx-auto">
+    <nav className="max-w-[1410px] mx-auto px-5">
       <div className="flex justify-between items-center">
         <div>
           <img src={logo} alt="" />
