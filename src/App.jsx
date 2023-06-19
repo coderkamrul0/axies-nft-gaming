@@ -1,13 +1,14 @@
 
 import React from 'react'
 import './App.css'
+import Hero from './components/Hero/Hero'
 
 function App() {
 
   return (
-    <>
-      <h1>Hello</h1>
-    </>
+    <div className='max-w-screen-[1920px]'>
+      <Hero/>
+    </div>
   )
 }
 
