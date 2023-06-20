@@ -11,6 +11,7 @@ import livem1 from "../../assets/livem1.png";
 import livem2 from "../../assets/livem2.png";
 import livem3 from "../../assets/livem3.png";
 import livem4 from "../../assets/livem4.png";
+import './LiveAuctions.css'
 
 const LiveAuctions = () => {
   return (
@@ -40,7 +41,7 @@ const LiveAuctions = () => {
           className="mySwiper py-10"
         >
           <SwiperSlide>
-            <div className="shadow-2xl p-3 rounded-2xl">
+            <div className="customShadow p-3 rounded-2xl">
               <div className="">
                 <img src={live1} className="w-full" alt="" />
               </div>
@@ -66,7 +67,7 @@ const LiveAuctions = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-          <div className="shadow-2xl p-3 rounded-2xl">
+          <div className="customShadow p-3 rounded-2xl">
               <div className="">
                 <img src={live2} className="w-full rounded-2xl" alt="" />
               </div>
@@ -92,7 +93,7 @@ const LiveAuctions = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-          <div className="shadow-2xl p-3 rounded-2xl">
+          <div className="customShadow p-3 rounded-2xl">
               <div className="">
                 <img src={live3} className="w-full rounded-2xl" alt="" />
               </div>
@@ -118,7 +119,7 @@ const LiveAuctions = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-          <div className="shadow-2xl p-3 rounded-2xl">
+          <div className="customShadow p-3 rounded-2xl">
               <div className="">
                 <img src={live4} className="w-full rounded-2xl" alt="" />
               </div>
@@ -144,7 +145,7 @@ const LiveAuctions = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-          <div className="shadow-2xl p-3 rounded-2xl">
+          <div className="customShadow p-3 rounded-2xl">
               <div className="">
                 <img src={live1} className="w-full" alt="" />
               </div>
@@ -170,7 +171,7 @@ const LiveAuctions = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-          <div className="shadow-2xl p-3 rounded-2xl">
+          <div className="customShadow p-3 rounded-2xl">
               <div className="">
                 <img src={live2} className="w-full rounded-2xl" alt="" />
               </div>
